@@ -2,7 +2,9 @@
 
 # כותרת ראשית: שם המשחק
 
-**tagline: משפט שיווקי קצר וקליט המתאר את המשחק**
+What would you do if time were your only resource?
+Survive and thrive as time becomes your ultimate currency in 'Timeless'—where every moment counts, and your choices shape your destiny.
+
 
 ## מהות המשחק
 
