@@ -16,7 +16,7 @@ Survive and thrive as time becomes your ultimate currency in 'Timeless'—where 
 שימו כאן ציור-מסך המתאר את המשחק כפי שאתם רואים אותו בדמיון שלכם.
 
 ---
-![view skecth](https://github.com/FireBomb-game-development/TimlessWorld/assets/89184174/c7581652-f0f6-4bae-a01c-99e4f7a5132c)
+![Uploading new skecth.png…]()
 
 
 ## רכיבים רשמיים
