@@ -522,9 +522,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1205682400}
   - component: {fileID: 1205682399}
-  - component: {fileID: 1205682402}
-  - component: {fileID: 1205682401}
   - component: {fileID: 1205682403}
+  - component: {fileID: 1205682405}
+  - component: {fileID: 1205682404}
   m_Layer: 0
   m_Name: oscilator
   m_TagString: Untagged
@@ -592,15 +592,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205682395}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00000022897112, y: -0.000014972054, z: 0.003045118, w: 0.99999535}
-  m_LocalPosition: {x: 4.26, y: 2.27, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.001629432, y: -0.000010010898, z: 0.0030451387, w: 0.99999404}
+  m_LocalPosition: {x: 3.25, y: 1.14, z: 0}
+  m_LocalScale: {x: 0.31089467, y: 0.24614123, z: 0.7239448}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1887023482}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -0.002, z: 0.349}
---- !u!233 &1205682401
+  m_LocalEulerAnglesHint: {x: 0.187, y: -0.001, z: 0.349}
+--- !u!114 &1205682403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205682395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb069f507e8844ffbb9267e992cc5053, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitude: 75
+  frequency: 1
+--- !u!233 &1205682404
 HingeJoint2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -615,17 +629,17 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: -0.03, y: 1.93}
-  m_ConnectedAnchor: {x: 4.2182465, y: 4.1997814}
-  m_UseMotor: 0
+  m_Anchor: {x: 0.28, y: 7}
+  m_ConnectedAnchor: {x: 4.75, y: 2.79}
+  m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!50 &1205682402
+--- !u!50 &1205682405
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -652,20 +666,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1205682403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205682395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb069f507e8844ffbb9267e992cc5053, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amplitude: 75
-  frequency: 1
 --- !u!1 &1488751759
 GameObject:
   m_ObjectHideFlags: 0
