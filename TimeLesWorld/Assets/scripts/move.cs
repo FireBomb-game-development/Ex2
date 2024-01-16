@@ -8,7 +8,8 @@ public class Pendulum : MonoBehaviour
 
     public float amplitude;  // The maximum angle the pendulum can swing
     public float frequency;  // The speed of the pendulum swing
-
+    public float minAng;
+    public float maxAng;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +24,8 @@ public class Pendulum : MonoBehaviour
 
     public void Move()
     {
-        float angle = amplitude * Mathf.Sin(frequency * Time.time);
+        float scaleFactor = Mathf.PingPong(Time.time * frequency, 1f) * (maxAng - minAng) + minAng;
+        float angle = amplitude * Mathf.Sin(scaleFactor * Time.time);
         rb2d.rotation = angle;
     }
 }
