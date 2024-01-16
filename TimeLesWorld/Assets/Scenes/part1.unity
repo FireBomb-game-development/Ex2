@@ -315,8 +315,8 @@ MonoBehaviour:
   minScale: 0
   maxScale: 360
   scaleSpeed: 1
-  tiltY: 0
-  tiltX: 0
+  tiltY: 1
+  tiltX: 1
 --- !u!1 &616203511
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,7 +677,7 @@ Transform:
   m_GameObject: {fileID: 1205682395}
   serializedVersion: 2
   m_LocalRotation: {x: 0.001629432, y: -0.000010010898, z: 0.0030451387, w: 0.99999404}
-  m_LocalPosition: {x: 3.25, y: 1.14, z: 4.1564e-11}
+  m_LocalPosition: {x: 3.25, y: 1.83, z: 4.1564e-11}
   m_LocalScale: {x: 0.27242455, y: 0.2420187, z: 0.63436383}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -714,8 +714,8 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 6.78}
-  m_ConnectedAnchor: {x: 3.25, y: 1.14}
+  m_Anchor: {x: 0, y: 7.1}
+  m_ConnectedAnchor: {x: 3.25, y: 3.62}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
