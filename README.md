@@ -13,3 +13,8 @@ TimelessWorld is a captivating private survival game that introduces innovative 
 - **Crafting and Building:** Gather resources to build shelters and tools.
 - **Time Markets:** Engage in unique time-based transactions for resources and technology.
 - **Multiplayer Interaction:** Collaborate internally for alliances or compete for limited time resources.
+
+## itch.io (our play)
+- ** 2A ** https://unitime.itch.io/ex2
+- ** 2B ** https://unitime.itch.io/ex2-part2b
+- ** 2B ** https://unitime.itch.io/ex2-part2b
