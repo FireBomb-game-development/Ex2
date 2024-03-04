@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class ExampleScript : MonoBehaviour
 {
-    float smooth = 5.0f;
+    public float smooth;
     public float minScale;
     public float maxScale;
     public float scaleSpeed;
@@ -16,14 +16,15 @@ public class ExampleScript : MonoBehaviour
     public bool tiltX;
     float tiltAroundX;
     float tiltAroundY;
+    public float half;
 
     void Update()
     {
         // Smoothly tilts a transform towards a target rotation.
-        float tiltAroundZ =  Mathf.Lerp(minScale, maxScale, 0.5f + 0.5f * Mathf.Sin(Time.time * scaleSpeed));
-        if (tiltX)  tiltAroundX = Mathf.Lerp(minScale, maxScale, 0.5f + 0.5f * Mathf.Sin(Time.time * scaleSpeed));
+        float tiltAroundZ =  Mathf.Lerp(minScale, maxScale, half + half * Mathf.Sin(Time.time * scaleSpeed));
+        if (tiltX)  tiltAroundX = Mathf.Lerp(minScale, maxScale, half + half * Mathf.Sin(Time.time * scaleSpeed));
 
-        if(tiltY) tiltAroundY = Mathf.Lerp(minScale, maxScale, 0.5f + 0.5f * Mathf.Sin(Time.time * scaleSpeed));
+        if(tiltY) tiltAroundY = Mathf.Lerp(minScale, maxScale, half + half * Mathf.Sin(Time.time * scaleSpeed));
         // Rotate the cube by converting the angles into a quaternion.
         
         Quaternion target = Quaternion.Euler(tiltAroundX, tiltAroundY, tiltAroundZ);

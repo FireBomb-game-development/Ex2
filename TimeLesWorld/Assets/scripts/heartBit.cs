@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Heartbeat : MonoBehaviour
 {
-    public float minScale = 1f;
-    public float maxScale = 2f;
-    public float scaleSpeed = 1f;
+    public float minScale ;
+    public float maxScale ;
+    public float scaleSpeed ;
 
     private Vector3 initialScale;
 

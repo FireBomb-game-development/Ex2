@@ -312,11 +312,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 187f09b9a0a5746d2a318ddd83335e4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  smooth: 5
   minScale: 0
   maxScale: 360
   scaleSpeed: 1
   tiltY: 1
   tiltX: 1
+  half: 0.5
 --- !u!1 &616203511
 GameObject:
   m_ObjectHideFlags: 0
