@@ -18,6 +18,6 @@ TimelessWorld is a captivating private survival game that introduces innovative 
 - ** 2A ** https://unitime.itch.io/ex2
 - ** 2B ** https://unitime.itch.io/ex2-part2b
 - ** 2B ** https://unitime.itch.io/ex2-part2b
-- ![plot](![סעיף א](https://github.com/FireBomb-game-development/Ex2/assets/74296478/cb612256-ec8f-4956-84d9-9c33dbde7b0f)
+- (![סעיף א](https://github.com/FireBomb-game-development/Ex2/assets/74296478/cb612256-ec8f-4956-84d9-9c33dbde7b0f)
 )
 
